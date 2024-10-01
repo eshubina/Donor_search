@@ -12,7 +12,7 @@ DonorSearch: Deep Learning для работы с документами
 
 ## Запуск приложения
 
-### 1. Скачайте предсобранный Docker-образ с Docker Hub:
+### 1. Скачайте Docker-образ с Docker Hub:
 
 ```bash
 docker pull yarboxes/donor_search_script
