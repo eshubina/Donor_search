@@ -29,6 +29,6 @@ docker run -p 8000:8000 -v /path/to/your/images:/app/images --name image_rotatio
 
 ### 3. Используйте следующий [скрипт](https://github.com/eshubina/Donor_search/blob/main/donor_search_app/test_image_rotation_request.py) для отправки запроса на сервер и получения обработанного изображения.
 
-- Замените /app/images/your_image_file.png на имя файла изображения, который находится в спапке с изображениями на вашем компьютере
+- Замените /app/images/your_image_file.png на имя файла изображения, который находится в папке с изображениями на вашем компьютере
 - Скрипт отправляет POST-запрос на сервер FastAPI и получает обработанное изображение
 
